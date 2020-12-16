@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500&family=Rock+Salt&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #777777;
+
+}
+/*---------------------------------------------Header*/
+h2 {
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: 5px;
+    color: #444444;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    padding-left: 1.5%;
+    color: #00aba9;
+}
+
+#menu {
+    font-size: 125%;
+    list-style-type: none;
+    letter-spacing: 5px;
+    float: right;
+}
+
+#logo, #menu {
+    line-height: 80px;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #00aba9;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #00aba9;
+}
+
+.active {
+    border-bottom: 1px solid #00aba9;  
+}
+
+/*---------------------------------------------Hero Image*/
