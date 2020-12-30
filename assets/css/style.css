@@ -13,47 +13,29 @@ body {
 
 }
 /*---------------------------------------------Header*/
-h2 {
+.navbar {
     font-family: 'Rock Salt', cursive;
     letter-spacing: 5px;
-    color: #444444;
-}
-
-#logo {
+    background-color: black;
     float: left;
-    font-size: 280%;
-    padding-left: 1.5%;
+    font-size: 1550%;
     color: #00aba9;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
 }
 
-#menu {
+.nav {
     font-size: 125%;
     list-style-type: none;
     letter-spacing: 5px;
     float: right;
+    background-color: black;
+    color: #00aba9;
+    margin-top: 15px;
 }
 
-#logo, #menu {
+.navbar, .nav {
     line-height: 80px;
 }
-
-#menu li {
-    display: inline-block;
-    margin-right: 35px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #00aba9;
-
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #00aba9;
-}
-
-.active {
-    border-bottom: 1px solid #00aba9;  
-}
-
 /*---------------------------------------------Hero Image*/
