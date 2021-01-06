@@ -30,9 +30,7 @@ body {
     color:#2795a8;
 }
 .navbar {
-    padding: 0px;
-    padding-top: 10px;
-
+    padding: 10px 0px 10px 0px;
 }
 
 .nav {
@@ -42,8 +40,7 @@ body {
     float: right;
     justify-content: center;
     width: 100%;
-    padding: 0px;
-    padding-top: 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 .nav-link {
@@ -172,4 +169,64 @@ body {
     padding: 40px 0px;
 }
 
-/*---------------------------------------------About us*/
+/*---------------------------------------------Footer*/
+
+.style-footer{
+    background-color: #2795a8;
+    text-align: center;
+    color: #fff;
+
+}
+.icons-media {
+    color: #fff;
+    font-size: xx-large;
+}
+
+.contact-container {
+    margin: 15px 0px 15px 0px;
+}
+
+.contact-element-position {
+    margin-bottom: 10px;
+}
+
+.last-contact-element-position {
+    margin-bottom: 0px;
+}
+
+.btn-footer {
+    font-weight: 500;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    font-size: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-primary-footer {
+    background-color: #fff;
+    border:#fff;
+    color: #2795a8;
+}
+
+.btn-primary-footer:hover {
+    background-color: #5dc7d9;
+    border: #5dc7d9;
+    border-width: 10px;
+    color: #fff;
+}
+
+.btn-xl-footer {
+    padding: 1rem 2rem;
+}
+
+.media-container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.icons-media {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*---------------------------------------------Contact form*/
