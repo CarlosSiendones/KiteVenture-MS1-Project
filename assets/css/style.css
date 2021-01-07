@@ -169,6 +169,8 @@ body {
     padding: 40px 0px;
 }
 
+/*---------------------------------------------Quotes*/
+
 /*---------------------------------------------Footer*/
 
 .style-footer{
@@ -201,18 +203,18 @@ body {
     font-size: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .btn-primary-footer {
     background-color: #fff;
-    border:#fff;
+    border: #2795a8;
     color: #2795a8;
 }
 
 .btn-primary-footer:hover {
     background-color: #5dc7d9;
     border: #5dc7d9;
-    border-width: 10px;
     color: #fff;
 }
 
@@ -229,4 +231,127 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/*--------------------------------------------------Gallery*/
+
+.bg-gallery-heading {
+    background: url(../images/finding-dan-dan-grinwis-yFsCyj9majQ-unsplash.jpg) no-repeat center center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin: 0px;
+}
+
+.bg-heading{
+    background-color: rgba(93, 199, 217,0.7);
+    padding: 15px 0px 15px 0px;
+}
+
+.heading-gallery {
+    font-weight: 400;
+    font-size: 250%;
+    color: #fff;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 15px 0px 15px 0px;
+   
+}
+
+#gallery {
+    width: 100%;
+    column-count: 4;
+    column-gap: 0px;
+    padding: 0px;
+    margin: 15px 0px 15px 0px;
+}
+
+img {
+    width: 100%;
+}
+
+.bg-gallery {
+    background: url(../images/finding-dan-dan-grinwis-yFsCyj9majQ-unsplash.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+}
 /*---------------------------------------------Contact form*/
+
+.bg-form-image {
+    background: url(../images/finding-dan-dan-grinwis-yFsCyj9majQ-unsplash.jpg) no-repeat center center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin: 0px 0px 40px 0px;
+
+}
+
+.container-form {
+    padding: 0% 8% 0% 8%;
+}
+
+.jumbotron-form {
+    background-color: rgba(93, 199, 217,0.7);
+    height: min-content;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.text-position-form {
+    text-align: center;
+}
+
+.content-heading-form {
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.form-container-item, .content-heading-form {
+    color: #fff;
+}
+
+.form-header-one {
+    padding-top: 35px;
+    font-weight: 400;
+    font-size: 175%;
+    letter-spacing: 6px;
+}
+
+.form-header-two {
+    font-weight: 400;
+    font-size: 160%;
+    letter-spacing: 5px;
+}
+
+.label-text {
+    margin: 8px 0px 5px 0px;
+}
+
+.request-heading-container {
+    padding: 20px 0px 15px 0px;
+}
+
+.request-heading {
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.label-request {
+    margin-left: 10px;
+}
+
+.input-request .label-request {
+    text-align: left;
+}
+
+.comments-heading {
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 0px 10px 10px 10px;
+}
+
