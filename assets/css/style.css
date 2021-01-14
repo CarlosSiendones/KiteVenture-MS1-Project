@@ -12,6 +12,40 @@ body {
     color: #777777;
 
 }
+header {
+    position: absolute;
+}
+
+footer {
+    position: absolute;
+}
+.margin-sections {
+    padding: 2.5rem 1rem 2.5rem 1rem;
+}
+
+.max-width-general {
+    max-width: 2000px;
+}
+
+.content-heading{
+    font-weight: 300;
+    font-size: 200%;
+    color: #2795a8;
+    letter-spacing: 4px;
+    text-transform: uppercase!important;
+    text-align: center!important;
+}
+
+.circle-container {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: #5dc7d9;
+    border-width: 3px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 /*---------------------------------------------Header*/
 
 .navbar-brand {
@@ -44,7 +78,6 @@ body {
 }
 
 .nav-link {
-    font-family: ;
     color: #2795a8;
     text-align: center;
     padding-left: 8px;
@@ -131,7 +164,6 @@ body {
 
 .btn-primary:hover {
     background-color: #5dc7d9;
-    border: #5dc7d9;
     border-width: 20px;
 }
 
@@ -144,54 +176,16 @@ body {
     width: 100%;
 }
 
-.text-important{
-    text-transform: uppercase!important;
-    text-align: center!important;
-}
-
-.content-heading{
-    font-weight: 300;
-    font-size: 250%;
-    color: #2795a8;
-    letter-spacing: 4px;
-    margin-top: 40px;
-}
-
-.about-us-p {
-    font-family: 'Lato' , sans-serif;
-    font-weight: 500;
-}
-
 .about-us-img{
     overflow: visible;
     height: auto;
     width: 100%;
-    padding: 40px 0px;
+    border-radius: 25% 0;
 }
 
 /*---------------------------------------------Quotes*/
-.quotes-header {
-    margin-top: 30px;
-}
-.content-heading-quotes {
-    font-weight: 300;
-    font-size: 250%;
-    color: #2795a8;
-    letter-spacing: 4px;
-}
 .container-quote {
-    margin-top: 20px;
-}
-
-.circle-container {
-    width: 100%;
-    height: auto;
-    padding: 5px;
-    border-style: solid;
-    border-color: #5dc7d9;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+    margin-top: 2rem;
 }
 
 .quote-image {
@@ -208,15 +202,14 @@ body {
 }
 .content-heading-health {
     font-weight: 300;
-    font-size: 250%;
+    font-size: 200%;
     letter-spacing: 4px;
     text-transform: uppercase;
     margin: 0px;
-    padding: 20px 0px 30px 0px;;
 }
 
 .sub-health-container {
-    padding-top: 20px;
+    padding: 1.5rem;
 }
 
 .icons-health {
@@ -230,19 +223,7 @@ body {
 }
 
 /*---------------------------------------------Destinations*/
-.destinations-header {
-    margin-top: 30px;
-}
 
-.content-destinations-heading {
-    font-weight: 300;
-    font-size: 250%;
-    color: #2795a8;
-    letter-spacing: 4px;
-}
-.destination-row-position {
-    margin-bottom: 30px;
-}
 .content-destinations-sub-heading {
     font-weight: 300;
     text-align: center;
@@ -271,19 +252,27 @@ body {
 
 
 /*---------------------------------------------Footer*/
+.footer-bg {
+    width: 100%;
+    background-color: #2795a8
+}
 
-.style-footer{
+#style-footer{
     background-color: #2795a8;
     text-align: center;
     color: #fff;
+    max-width: 2000px;
 }
+
+
 .icons-media {
     color: #fff;
     font-size: xx-large;
 }
 
-.contact-container {
-    margin: 15px 0px 15px 0px;
+
+.items-footer {
+    padding: 30px 0px 30px 0px;
 }
 
 .contact-element-position {
@@ -299,8 +288,6 @@ body {
     border-radius: 50px;
     letter-spacing: 2px;
     font-size: 100%;
-    margin-top: 15px;
-    margin-bottom: 15px;
     text-transform: uppercase;
 }
 
@@ -312,17 +299,11 @@ body {
 
 .btn-primary-footer:hover {
     background-color: #5dc7d9;
-    border: #5dc7d9;
     color: #fff;
 }
 
 .btn-xl-footer {
     padding: 1rem 2rem;
-}
-
-.media-container{
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .icons-media {
@@ -359,7 +340,7 @@ body {
 
 #gallery {
     width: 100%;
-    column-count: 4;
+    column-count: 1;
     column-gap: 0px;
     padding: 0px;
     margin: 15px 0px 15px 0px;
@@ -438,6 +419,9 @@ img {
     padding: 10px;
 }
 
+.item-request {
+    display: inline;
+}
 .label-request {
     margin-left: 10px;
 }
