@@ -32,60 +32,66 @@
         </div>     
     </header>
     <!--Form-->
-    <section>
-        <div class="container-fluid">
-            <div class="row bg-form-image">
-                <div class="col-12 container-form">
-                    <div class="jumbotron-form text-position-form">
-                        <div class="content-heading-form">
-                            <h3 class="form-header-one">KiteVenture</h3>
-                            <h5 class="form-header-two">Contact Form</h5>
-                        </div>
-                        <div class="form-container">
-                            <form class="form-container-item" method="post" action="form.php">
-                                <div class="form-item">
-                                    <label class="label-text" for="name">Name</label><br>
-                                    <input type="text" placeholder="Your name here..." required><br>
-                                    <label class="label-text" for="last-name">Last Name</label><br>
-                                    <input type="text" placeholder="Your last name here..." required><br>
-                                    <label class="label-text" for="email">Email</label><br>
-                                    <input type="email" placeholder="Your email here..." required><br>
-                                    <label class="label-text" for="phone">Phone Number</label><br>
-                                    <input type="text" placeholder="Your phone number here..." required>
-                                </div>
-                                <div class="request-heading-container">
-                                    <h5 class="request-heading">Request</h5>
-                                    <div class="item-request">
-                                    <input class="input-request" type="checkbox" name="quotation" value="yes"><br><label class="label-request" for="quotation">Quotation</label><br>
-                                    <input class="input-request" type="checkbox" name="booking" value="yes"><br><label class="label-request" for="booking">Booking</label><br>
-                                    <input class="input-request" type="checkbox" name="info" value="yes"><br><label class="label-request" for="info">Info</label><br>
+    <main>
+        <section>
+            <div class="container-fluid">
+                <div class="row bg-form-image">
+                    <div class="col-12 container-form">
+                        <div class="jumbotron-form text-position-form">
+                            <div class="content-heading-form">
+                                <h3 class="form-header-one">KiteVenture</h3>
+                                <h5 class="form-header-two">Contact Form</h5>
+                            </div>
+                            <div class="form-container">
+                                <form class="form-container-item" method="post" action="form.php">
+                                    <div class="form-item">
+                                        <label class="label-text" for="name">Name</label><br>
+                                        <input type="text" placeholder="Your name here..." required><br>
+                                        <label class="label-text" for="last-name">Last Name</label><br>
+                                        <input type="text" placeholder="Your last name here..." required><br>
+                                        <label class="label-text" for="email">Email</label><br>
+                                        <input type="email" placeholder="Your email here..." required><br>
+                                        <label class="label-text" for="phone">Phone Number</label><br>
+                                        <input type="text" placeholder="Your phone number here..." required>
                                     </div>
-                                </div>
-                                <div class="comments-container">
-                                    <h5 class="comments-heading">Comments</h5>
-                                    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Further questions or comments here..."></textarea>
-                                </div>
-                                <div>
-                                    <input class="btn-footer btn-primary-footer btn-xl-footer" type="submit" value="Submit">
-                                </div>    
-                            </form>
-                        </div>    
+                                    <div class="request-heading-container">
+                                        <h5 class="request-heading">Request</h5>
+                                        <div class="item-request">
+                                        <input class="input-request" type="checkbox" name="quotation" value="yes"><br><label class="label-request" for="quotation">Quotation</label><br>
+                                        <input class="input-request" type="checkbox" name="booking" value="yes"><br><label class="label-request" for="booking">Booking</label><br>
+                                        <input class="input-request" type="checkbox" name="info" value="yes"><br><label class="label-request" for="info">Info</label><br>
+                                        </div>
+                                    </div>
+                                    <div class="comments-container">
+                                        <h5 class="comments-heading">Comments</h5>
+                                        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Further questions or comments here..."></textarea>
+                                    </div>
+                                    <div>
+                                        <input class="btn-footer btn-primary-footer btn-xl-footer" type="submit" value="Submit">
+                                    </div>    
+                                </form>
+                            </div>    
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>        
-    </section>
+            </div>        
+        </section>
+    </main>
     <!--contact social media-->
     <footer>
-        <div class="container-fluid style-footer">
+        <div class="footer-bg">
+        <div id="style-footer" class="container-fluid margin-sections">
             <div class="row">
-                <div class="col-sm-6 contact-container">
+                <div class="col-sm-4 items-footer">
                     <h4 class="contact-position">Contact Info</h4>
                     <p class="contact-element-position"><i class="fas fa-phone-square"></i> +31 619381609</p>
                     <p class="contact-element-position"><i class="fas fa-envelope-square"></i> info@kiteventure.com</p>
-                    <p class="last-contact-element-position"><i class="fas fa-map-marker-alt"></i> Bilthovenselaan 58, 2574TJ,The Nederlands</p>
+                    <p class="last-contact-element-position"><i class="fas fa-map-marker-alt"></i> Bilthovenselaan 58, 2574TJ,The Netherlands</p>
                 </div>
-                <div class="col-sm-6 media-container">
+                <div class="col-sm-4 items-footer">
+                    <button onclick="document.location='contact.html'" class="btn-footer btn-primary-footer btn-xl-footer">Contact Us</button>
+                </div>
+                <div class="col-sm-4 items-footer">
                     <h4>Social Media</h4>
                     <a href="https://www.facebook.com" target="_blank">
                         <i class="fab fa-facebook-square icons-media"></i>
@@ -98,7 +104,8 @@
                     </a>
                 </div>
             </div>
-        </div>    
+        </div>  
+        </div>  
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
