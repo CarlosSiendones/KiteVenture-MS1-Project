@@ -53,7 +53,7 @@ body {
     padding: 0px;
 }
 .navbar-brand:hover{
-    color:#2795a8;
+    color:#5dc7d9;
 }
 .navbar {
     padding: 10px 0px 10px 0px;
@@ -121,7 +121,7 @@ body {
 }
 .hero-text {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     color: rgb(255,255,255);
 }
  
@@ -235,6 +235,9 @@ body {
 
 
 /*---------------------------------------------Footer*/
+.margin-footer-row {
+    margin: 0;
+}
 .footer-bg {
     width: 100%;
     background-color: #2795a8
@@ -331,11 +334,6 @@ img {
     width: 100%;
 }
 
-.bg-gallery {
-    background: url(../images/finding-dan-dan-grinwis-yFsCyj9majQ-unsplash.jpg) no-repeat center center;
-    width: 100%;
-    background-size: cover;
-}
 /*---------------------------------------------Contact form*/
 
 .bg-form-image {
@@ -448,6 +446,7 @@ img {
     #about-us-p-outer {
         padding: 0 40px;
     }
+
     .text-quotes {
         padding-top: 125px;
     }
@@ -463,4 +462,7 @@ img {
         column-count: 4;
     }
 
+    .about-us-img {
+        padding-right: 40px;
+    }
 }
