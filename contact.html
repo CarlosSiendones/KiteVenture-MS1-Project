@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid max-width-general">
             <div class="row">
                 <div class="col-sm-6">
                     <nav class="navbar">
@@ -36,7 +36,7 @@
         <section>
             <div class="container-fluid">
                 <div class="row bg-form-image">
-                    <div class="col-12 container-form">
+                    <div class="col-12 container-fluid container-form max-width-general">
                         <div class="jumbotron-form text-position-form">
                             <div class="content-heading-form">
                                 <h3 class="form-header-one">KiteVenture</h3>
@@ -46,27 +46,27 @@
                                 <form class="form-container-item" method="post" action="form.php">
                                     <div class="form-item">
                                         <label class="label-text" for="name">Name</label><br>
-                                        <input type="text" placeholder="Your name here..." required><br>
+                                        <input class="text-holder" type="text" placeholder="Your name here..." required><br>
                                         <label class="label-text" for="last-name">Last Name</label><br>
-                                        <input type="text" placeholder="Your last name here..." required><br>
+                                        <input class="text-holder" type="text" placeholder="Your last name here..." required><br>
                                         <label class="label-text" for="email">Email</label><br>
-                                        <input type="email" placeholder="Your email here..." required><br>
+                                        <input class="text-holder" type="email" placeholder="Your email here..." required><br>
                                         <label class="label-text" for="phone">Phone Number</label><br>
-                                        <input type="text" placeholder="Your phone number here..." required>
+                                        <input class="text-holder" type="text" placeholder="Your phone number here..." required>
                                     </div>
                                     <div class="request-heading-container">
                                         <h5 class="request-heading">Request</h5>
-                                        <div class="item-request">
-                                        <input class="input-request" type="checkbox" name="quotation" value="yes"><br><label class="label-request" for="quotation">Quotation</label><br>
-                                        <input class="input-request" type="checkbox" name="booking" value="yes"><br><label class="label-request" for="booking">Booking</label><br>
-                                        <input class="input-request" type="checkbox" name="info" value="yes"><br><label class="label-request" for="info">Info</label><br>
+                                        <div >
+                                            <input class="input-request" type="checkbox" name="quotation" value="yes"><br><label class="label-request" for="quotation">Quotation</label><br>
+                                            <input class="input-request" type="checkbox" name="booking" value="yes"><br><label class="label-request" for="booking">Booking</label><br>
+                                            <input class="input-request" type="checkbox" name="info" value="yes"><br><label class="label-request" for="info">Info</label><br>
                                         </div>
                                     </div>
                                     <div class="comments-container">
                                         <h5 class="comments-heading">Comments</h5>
-                                        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Further questions or comments here..."></textarea>
+                                        <textarea class="comments-holder" name="comments" id="comments" cols="30" rows="10" placeholder="Further questions or comments here..."></textarea>
                                     </div>
-                                    <div>
+                                    <div class="submit-position">
                                         <input class="btn-footer btn-primary-footer btn-xl-footer" type="submit" value="Submit">
                                     </div>    
                                 </form>
