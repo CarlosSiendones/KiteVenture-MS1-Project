@@ -9,11 +9,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 110%;
+    font-size: 120%;
     color: #555555;
 
 }
 
+p {
+    font-size: larger;
+}
 .margin-sections {
     padding: 2.5rem 0 2.5rem 0;
 }
@@ -255,6 +258,10 @@ body {
 .links-contact-footer {
     color: #fff;
 }
+
+.links-contact-footer:hover {
+    color: #5dc7d9;
+}
 .icons-media {
     color: #fff;
     font-size: xx-large;
@@ -461,7 +468,6 @@ img {
     #gallery {
         column-count: 3;
     }
-
 }
 
 @media screen and (min-width: 1025px) {
