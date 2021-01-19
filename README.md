@@ -2,7 +2,7 @@
 Description here
 
 View the live project [here](https://carlossiendones.github.io/KiteVenture-MS1-Project/index.html)
-[Other](###**Other**)
+[Other](#other)
 ---
 ## **1. User Experience (UX)**
 

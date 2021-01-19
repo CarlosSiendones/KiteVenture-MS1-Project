@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="https://kit.fontawesome.com/aefa5930e7.js" crossorigin="anonymous"></script>
     
-    <title>KiteVenture</title>
+    <title>KiteVenture | Contact</title>
 </head>
 <body>
     <header>
@@ -35,34 +35,31 @@
         </div>     
     </header>
     <!--Form-->
-    <main>
-        <section>
-            <div class="container-fluid">
+    <main class="container-fluid max-width-general">
                 <div class="row bg-form-image">
                     <div class="col-12 container-fluid container-form max-width-general">
                         <div class="jumbotron-form text-position-form">
                             <div class="content-heading-form">
-                                <h3 class="form-header-one">KiteVenture</h3>
-                                <h5 class="form-header-two">Contact Form</h5>
+                                <h2 class="form-header">KiteVenture<br>contact form</h2>
                             </div>
-                            <div class="form-container">
-                                <form class="form-container-item" method="post" action="form.php">
+                            
+                                <form class="form-container-item" method="post" action="#">
                                     <div class="form-item">
                                         <label class="label-text" for="name">Name</label><br>
-                                        <input class="text-holder" type="text" placeholder="Your name here..." required><br>
+                                        <input class="text-holder" type="text" placeholder="Your name here..." id="name" required><br>
                                         <label class="label-text" for="last-name">Last Name</label><br>
-                                        <input class="text-holder" type="text" placeholder="Your last name here..." required><br>
+                                        <input class="text-holder" type="text" placeholder="Your last name here..." id="last-name" required><br>
                                         <label class="label-text" for="email">Email</label><br>
-                                        <input class="text-holder" type="email" placeholder="Your email here..." required><br>
+                                        <input class="text-holder" type="email" placeholder="Your email here..." id="email" required><br>
                                         <label class="label-text" for="phone">Phone Number</label><br>
-                                        <input class="text-holder" type="text" placeholder="Your phone number here..." required>
+                                        <input class="text-holder" type="text" placeholder="Your phone number here..." id="phone" required>
                                     </div>
                                     <div class="request-heading-container">
-                                        <h5 class="request-heading">Request</h5>
+                                        <h3 class="request-heading">Request</h3>
                                         <div >
-                                            <label class="label-request" for="quotation">Quotation</label><br><input class="input-request" type="checkbox" name="quotation" value="yes"><br>
-                                            <label class="label-request" for="booking">Booking</label><br><input class="input-request" type="checkbox" name="booking" value="yes"><br>
-                                            <label class="label-request" for="info">Info</label><br><input class="input-request" type="checkbox" name="info" value="yes"><br>
+                                            <label class="label-request" for="quotation">Quotation</label><br><input id="quotation" class="input-request" type="checkbox" name="quotation" value="yes"><br>
+                                            <label class="label-request" for="booking">Booking</label><br><input id="booking" class="input-request" type="checkbox" name="booking" value="yes"><br>
+                                            <label class="label-request" for="info">Info</label><br><input id="info" class="input-request" type="checkbox" name="info" value="yes"><br>
                                         </div>
                                     </div>
                                     <div class="comments-container">
@@ -73,25 +70,22 @@
                                         <input class="btn-footer btn-primary-footer btn-xl-footer" type="submit" value="Submit">
                                     </div>    
                                 </form>
-                            </div>    
+                                
                         </div>
                     </div>
                 </div>
-            </div>        
-        </section>
     </main>
     <!--contact social media-->
     <footer>
-        <div class="footer-bg">
         <div id="style-footer" class="container-fluid margin-sections">
             <div class="row margin-footer-row">
                 <div class="col-sm-4 items-footer">
                     <h4 class="contact-position">Contact Info</h4>
                     <p class="contact-element-position"><i class="fas fa-phone-square"></i> +31 619381609</p>
-                    <a class="links-contact-footer" href="https://outlook.live.com/" target="_blank">
+                    <a class="links-contact-footer" href="https://outlook.live.com/" target="_blank" rel="noopener">
                         <p class="contact-element-position"><i class="fas fa-envelope-square"></i> info@kiteventure.com</p>
                     </a>
-                    <a class="links-contact-footer" href="https://www.google.com/maps/place/Bilthovenselaan+58,+2574+TJ+Den+Haag/@52.0633967,4.2771187,17z/data=!3m1!4b1!4m5!3m4!1s0x47c5b12f7fb81b37:0x29a8262787ee82df!8m2!3d52.0633967!4d4.2793074" taget="_blank">
+                    <a class="links-contact-footer" href="https://www.google.com/maps/place/Bilthovenselaan+58,+2574+TJ+Den+Haag/@52.0633967,4.2771187,17z/data=!3m1!4b1!4m5!3m4!1s0x47c5b12f7fb81b37:0x29a8262787ee82df!8m2!3d52.0633967!4d4.2793074" taget="_blank" rel="noopener">
                         <p class="last-contact-element-position"><i class="fas fa-map-marker-alt"></i> Bilthovenselaan 58, 2574TJ,<br>
                             The Netherlands</p>
                     </a>
@@ -112,7 +106,6 @@
                     </a>
                 </div>
             </div>
-        </div>  
         </div>  
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
