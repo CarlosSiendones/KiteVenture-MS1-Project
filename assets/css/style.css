@@ -14,6 +14,9 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #555555;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
@@ -35,14 +38,10 @@ p {
     padding: 2.5rem 0 2.5rem 0;
 }
 
-.max-width-general {
-    max-width: 2000px;
-}
-
 .content-heading{
     font-weight: 300;
     font-size: 2rem;
-    color: #2795a8;
+    color: #028198;
     letter-spacing: 4px;
     text-transform: uppercase!important;
     text-align: center!important;
@@ -63,7 +62,7 @@ p {
 
 .navbar-brand {
     font-size: 1.8rem;
-    color: #2795a8;
+    color: #028198;
     font-family: "Rock Salt", cursive;
     letter-spacing: 5px;
     text-align: center;
@@ -91,7 +90,7 @@ p {
 }
 
 .nav-link {
-    color: #2795a8;
+    color: #028198;
     text-align: center;
     padding: 0 8px 0 8px;
     width: 33.3%;
@@ -168,8 +167,8 @@ p {
 }
 
 .btn-primary {
-    background-color: #2795a8;
-    border:#2795a8;
+    background-color: #028198;
+    border:#028198;
 }
 
 .btn-primary:hover {
@@ -200,6 +199,8 @@ p {
 }
 
 .quote-image {
+    width: 435px;
+    height: 435px;
     max-width: 100%;
     height: auto;
     border-radius: 50%;
@@ -208,7 +209,7 @@ p {
 /*---------------------------------------------Health & kiteventure*/
 
 .style-health {
-    background-color: #2795a8;
+    background-color: #028198;
     text-align: center;
     color: #fff;
 }
@@ -237,7 +238,7 @@ p {
 .content-destinations-sub-heading {
     font-weight: 300;
     text-align: center;
-    color: #5dc7d9;
+    color: #028198;
     letter-spacing: 4px;
     margin-top: 40px;
 }
@@ -256,7 +257,7 @@ p {
 }
 
 #style-footer{
-    background-color: #2795a8;
+    background-color: #028198;
     text-align: center;
     color: #fff;
     max-width: 2000px;
@@ -297,8 +298,8 @@ p {
 
 .btn-primary-footer {
     background-color: #fff;
-    border: #2795a8;
-    color: #2795a8;
+    border: #028198;
+    color: #028198;
 }
 
 .btn-primary-footer:hover {
@@ -360,7 +361,7 @@ img {
 /*---------------------------------------------Contact form*/
 
 .bg-form-image {
-    background: url(../images/bg-image-form.jpg) no-repeat center center;
+    background: url("../images/bg-image-form.jpg") no-repeat center center;
     width: 100%;
     height: auto;
     background-size: cover;
