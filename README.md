@@ -83,30 +83,19 @@ seamless on any device.
 ### **Wireframes**
 ---
 
-
 * [Smartphone Wireframes](readme-files/kiteventure-smartphone-wireframe.png)
 
-#### Tablet
+* [Tablet Wireframes](readme-files/kiteventure-tablet-wireframes.png)
 
-![Tablet Wireframes](./kiteventure-tablet-wireframes.png)
-
-#### Desktop
-
-![Desktop Wireframes](./kiteventure-desktop-wireframe.png)
+* [Desktop Wireframes](readme-files/kiteventure-desktop-wireframe.png)
 
 ### **Am I responsive**
 
-#### Responsive Home
+* [Responsive Home](readme-files/screenshot-home.png)
 
-![Responsive Home](readme-files/screenshot-home.png)
+* [Responsive Gallery](readme-files/screenshot-gallery.png)
 
-#### Responsive Gallery 
-
-![Responsive Gallery](readme-files/screenshot-gallery.png)
-
-#### Responsive Contact
-
-![Responsive Contact](readme-files/screenshot-contact.png)
+* [Responsive Contact](readme-files/screenshot-contact.png)
 
 ***
 
