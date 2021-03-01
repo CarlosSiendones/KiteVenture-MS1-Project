@@ -81,7 +81,7 @@ seamless on any device.
 * Last but not least , i used a maximum width to ensure that in large and very large screens everyhing stays organised, keeping the visual proportions within the screen.
 
 ### **Wireframes**
----
+
 
 * [Smartphone Wireframes](readme-files/kiteventure-smartphone-wireframe.png)
 
@@ -102,6 +102,8 @@ seamless on any device.
 
 ## **Surface**
 
+### **Color Palette**
+![Color Palette](readme-files/color-palette-kiteventure.png)
 ## **Features**
 ### **Existing Features**
 ### **Features to come**
@@ -109,7 +111,11 @@ seamless on any device.
 ## **Technologies used**
 http://ami.responsivedesign.is/
 
-https://jpg2png.com/
+https://jpg2png.com/ to convert images.
+
+https://coolors.co/ to create color palette.
+
+https://www.iloveimg.com/ to resize images.
 ## **Testing**
 ## **Deployment**
 
