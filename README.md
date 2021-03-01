@@ -82,17 +82,17 @@ seamless on any device.
 
 ### **Wireframes**
 ---
-#### Smartphone
 
-![Smartphone Wireframes](readme-files/kiteventure-smartphone-wireframe.png)
+
+* [Smartphone Wireframes](readme-files/kiteventure-smartphone-wireframe.png)
 
 #### Tablet
 
-![Tablet Wireframes](readme-files/kiteventure-tablet-wireframes.png)
+![Tablet Wireframes](./kiteventure-tablet-wireframes.png)
 
 #### Desktop
 
-![Desktop Wireframes](readme-files/kiteventure-desktop-wireframe.png)
+![Desktop Wireframes](./kiteventure-desktop-wireframe.png)
 
 ### **Am I responsive**
 
