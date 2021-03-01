@@ -5,7 +5,9 @@ KiteVenture
 
 View the live project [here](https://carlossiendones.github.io/KiteVenture-MS1-Project/index.html)
 [Other](#other)
+
 ---
+
 ## **User Experience (UX)**
 ## **Strategy**
 ### **User stories**
@@ -42,9 +44,28 @@ View the live project [here](https://carlossiendones.github.io/KiteVenture-MS1-P
 * As user i want to reach the team for any question i might have.
 
 **Bussiness expectations**
-* 
+* Provide information about KiteVenture.
+* Provide a channel for customers to contact KiteVenture.
+* Provide a visual overview about what KiteVenture is.
+* Motivate customers to book their next adventure with KiteVenture.
+* Engage with customers via KiteVenture social media channels.
 
 ## **Structure**
+
+KiteVenture website has 3 pages:
+
+1. **Home page** where you can find diferent sections:
+    * About section.
+    * Quotes.
+    * Healthy reasons Why.
+    * Destinations.
+2. **Gallery** where you can find visual content from previous trips.
+3. **Contact** Where you find a contact form to reach KiteVenture.
+
+---
+
+## **Design**
+
 ## **Skeleton**
 ## **Surface**
 
