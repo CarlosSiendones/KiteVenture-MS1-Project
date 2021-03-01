@@ -82,23 +82,19 @@ seamless on any device.
 
 #### Wireframes
 
-
-* [Smartphone Wireframes](/workspace/KiteVenture-MS1-Project/readme-files/kiteventure-smartphone-wireframe.png)
+* [Smartphone Wireframes](readme-files/kiteventure-smartphone-wireframe.png)
 
 * [Tablet Wireframes](/workspace/KiteVenture-MS1-Project/readme-files/kiteventure-tablet-wireframes.png)
 
-* [Desktop Wireframes](/workspace/KiteVenture-MS1-Project/readme-files/kiteventure-desktop-wireframe.png)
+* [Desktop Wireframes](https://green-cat-kq8vom4o.ws-eu03.gitpod.io/files/download/?id=465e0dd1-cc38-459a-b66c-b8865d795143)
 
 #### Am I responsive
 
-* [Responsive Home]()
+* [Responsive Home](/workspace/KiteVenture-MS1-Project/readme-files/screenshot-home.png)
 
-* [Responsive Gallery]()
+* [Responsive Gallery](/workspace/KiteVenture-MS1-Project/readme-files/screenshot-gallery.png)
 
-* [Responsive Contact]()
-### Mockup
-
-
+* [Responsive Contact](/workspace/KiteVenture-MS1-Project/readme-files/screenshot-contact.png)
 
 ***
 
@@ -111,6 +107,8 @@ seamless on any device.
 
 ## **Technologies used**
 http://ami.responsivedesign.is/
+
+https://jpg2png.com/
 ## **Testing**
 ## **Deployment**
 
