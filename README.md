@@ -63,10 +63,46 @@ KiteVenture website has 3 pages:
 3. **Contact** Where you find a contact form to reach KiteVenture.
 
 ---
-
 ## **Design**
-
+---
 ## **Skeleton**
+### **Layout**
+
+* The KiteVenture website has been design with a responsive design , so it adapts the layout deppending on the device/screen size the web is 
+displayed.While in a mobile device everything displays in one column due to its size, in bigger devices like tablets, laptops, desktop 
+screens the website will display in two, three or four columns depending on the sections needs.
+
+* In order to display a clean and organised layout i have used Bootstrap for the grid system combined with containers, margins, paddings etc...
+
+* The KiteVenture website has been designed under the philoshopy of Mobile-First Design to create a better user experience,
+starting the design process  from the smallest of the screens (mobile). In this way we ensure that the users experience is 
+seamless on any device.
+
+* Last but not least , i used a maximum width to ensure that in large and very large screens everyhing stays organised, keeping the visual proportions within the screen.
+
+#### Wireframes
+
+
+* [Smartphone Wireframes](/workspace/KiteVenture-MS1-Project/readme-files/kiteventure-smartphone-wireframe.png)
+
+* [Tablet Wireframes](/workspace/KiteVenture-MS1-Project/readme-files/kiteventure-tablet-wireframes.png)
+
+* [Desktop Wireframes](/workspace/KiteVenture-MS1-Project/readme-files/kiteventure-desktop-wireframe.png)
+
+#### Am I responsive
+
+* [Responsive Home]()
+
+* [Responsive Gallery]()
+
+* [Responsive Contact]()
+### Mockup
+
+
+
+***
+
+
 ## **Surface**
 
 ## **Features**
@@ -74,6 +110,7 @@ KiteVenture website has 3 pages:
 ### **Features to come**
 
 ## **Technologies used**
+http://ami.responsivedesign.is/
 ## **Testing**
 ## **Deployment**
 
