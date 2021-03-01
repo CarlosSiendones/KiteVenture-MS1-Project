@@ -104,18 +104,39 @@ seamless on any device.
 
 ### **Color Palette**
 ![Color Palette](readme-files/color-palette-kiteventure.png)
+
+**RGB** equivalent from left to right
+ * RGB(85, 85, 85)---- Davys Grey
+ * RGB(2, 129, 152)--- Metalic Seaweed
+ * RGB(93, 199, 217)-- Middle Blue
+ * RGB(85, 85, 85)---- White
+
+ For KiteVenture website we decide to use fresh colors that remind us the sea for the obvious connection between the sport and the playground. We wanted
+ to keep the fresh look of the site without compromising the accesibility for visual impared users, so we make sure that we are working with enought
+ contrast along the website for every user. 
+
+ Combining the color palette with the warmth of the images we want to create that feeling of being outside, in the nature, where every adventure takes place
+ where KiteVenture is gonna bring you.
+
+ ### **Typography**
+ ### **Buttons**
+
 ## **Features**
 ### **Existing Features**
 ### **Features to come**
 
 ## **Technologies used**
-http://ami.responsivedesign.is/
+* [Bootstrap](https://getbootstrap.com/) for the grid system.
 
-https://jpg2png.com/ to convert images.
+* [Fonts Google](https://fonts.google.com/) for Typography.
 
-https://coolors.co/ to create color palette.
+* [Ami Responsive Design](http://ami.responsivedesign.is/) for responsiviness mockups.
 
-https://www.iloveimg.com/ to resize images.
+* [Jpg 2 Png](https://jpg2png.com/) to convert images.
+
+* [Coolors](https://coolors.co/) to create color palette.
+
+* [I Love Img](https://www.iloveimg.com/) to resize images.
 ## **Testing**
 ## **Deployment**
 
