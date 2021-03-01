@@ -80,21 +80,33 @@ seamless on any device.
 
 * Last but not least , i used a maximum width to ensure that in large and very large screens everyhing stays organised, keeping the visual proportions within the screen.
 
-#### Wireframes
+### **Wireframes**
+---
+#### Smartphone
 
-* [Smartphone Wireframes](readme-files/kiteventure-smartphone-wireframe.png)
+![Smartphone Wireframes](readme-files/kiteventure-smartphone-wireframe.png)
 
-* [Tablet Wireframes](/workspace/KiteVenture-MS1-Project/readme-files/kiteventure-tablet-wireframes.png)
+#### Tablet
 
-* [Desktop Wireframes](https://green-cat-kq8vom4o.ws-eu03.gitpod.io/files/download/?id=465e0dd1-cc38-459a-b66c-b8865d795143)
+![Tablet Wireframes](readme-files/kiteventure-tablet-wireframes.png)
 
-#### Am I responsive
+#### Desktop
 
-* [Responsive Home](/workspace/KiteVenture-MS1-Project/readme-files/screenshot-home.png)
+![Desktop Wireframes](readme-files/kiteventure-desktop-wireframe.png)
 
-* [Responsive Gallery](/workspace/KiteVenture-MS1-Project/readme-files/screenshot-gallery.png)
+### **Am I responsive**
 
-* [Responsive Contact](/workspace/KiteVenture-MS1-Project/readme-files/screenshot-contact.png)
+#### Responsive Home
+
+![Responsive Home](readme-files/screenshot-home.png)
+
+#### Responsive Gallery 
+
+![Responsive Gallery](readme-files/screenshot-gallery.png)
+
+#### Responsive Contact
+
+![Responsive Contact](readme-files/screenshot-contact.png)
 
 ***
 
