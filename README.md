@@ -155,14 +155,83 @@ color of its text as we hover it. This buttons can be for **Contact us** , **Boo
 Given that the website is a proposal for a potential customer we have not actual images from this company at the moment, in the future we will need just 
 to replace the images. All the images of the website have been downloaded from [Unsplash](https://unsplash.com/).
 
-The images has been selected to induce the user in a state of need for an adventure.
+The images has been selected to induce the user in a state of need for an adventure. Strong clean images to give the website more attractiviness, and to turnover in to more bookings.
+
+Below you will find the file with the images from the whole website and The authors will appear in the **credits** section.
 
 [Images](assets/images) folder.
 
 
 
 ## **Features**
-### **Existing Features**
+
+### **General features throughout the website**
+
+**Navigation Bar and Logo**
+
+At the top of each page of the website we find the Navigation Bar and the Logo. Since both elements are call to action elements
+when we hover on them they change color to improves accessibility. The **logo** no matter in which page you are, 
+will bring you back to Home page. Each call to action element of the **Navigation Bar** will bring you to the its
+designated page of the web site. Since we have only three pages in this website we decided to do not colapse the
+navigation bar in small devices, instead we bring it under the logo and centered both logo and navigation bar.
+And in bigger screens they will be aligned for better visual apeal.
+
+**Footer**
+
+At the bottom of each page we will find the footer. This is ddivided in three sections **Contact info**, **Contact us** 
+call to action button and **Social media**.In mobile device we will find this sections stacked while in bigger devices 
+we will find them in three columns.
+
+In the **Contact info** section we find a contact phone number that you can use in a mobile device to call directly, 
+a contact email address linked to your email service so you can write and send an email right away from any device and 
+the location of the company linked to a pin in Google maps so in case the user wants to visit the company will be very 
+easy to find it.
+
+The second section of the footer is a **Contact us** call to action button linked to the contact form for better
+accesibility,user experience and potentially convertions in bookings.
+
+Last but not least the **Social Media** section with the logo-link of each media channel the company uses. So the user 
+can straight away click and follow to stay tuned for the latest news from KiteVenture and to reach the desired engagement 
+from the customer.
+
+**Accesibility**
+
+We put a lot of attention in users with visual impairments, so all the images and navigations have alt or aria-label atributes 
+so it is easier to navigate for them, also we made sure that the contrast along the website has enought contrast. To cope with 
+the hierarchy throughout the website we use header elements in sequence.
+
+**Responsiviness**
+
+We create the website starting from **mobile first philosophy** and scaling up and down for different screen sizes we might find.
+This will make the web site look good in any device. 
+
+**Metadata**
+we labeled each page by its name so if the user has more than one page open can recognise easily where is at the moment or where 
+to go. We also add keywords to increase traffic to the site.
+
+### **Features per page**
+**Home**
+* A strong welcome **Hero Image** with a slogan to induce the user in to the adventure feeling from the very begining and a **book now** 
+button for those users who already know what they want.
+
+* An **About us** section to let new users who Kiteventure is and what do they do with an image reminder of it.
+
+* A **Quotes section** where we show what previous KiteVenturers think about us.
+
+* In our **Why KiteVenture** section we decide to mix the "why" with "healthy reasons" to tell our users why to choose us. This end up 
+in **Healthy reasons why KiteVenture** section , because we believe adventures adds numerous positive effects to everybody's health.
+
+* Finally we arrive to our main **Destinations** section.*Please notice that at the moment this destinations are linked to the contact form since 
+our trips are made personally and deppending on the conditions for the main activity which is Kitesurfing*.
+
+**Gallery**
+* In this page we find only a **Gallery** section. We think that a gallery in this kind of bussines it is really important to we give it its own 
+page. This is a simple but effective and more important, responsive gallery.It goes from one column in the smaller screens all the way to four for bigger screens.
+
+
+**Contact**
+
+
 ### **Features to come**
 
 ## **Technologies used**
