@@ -89,6 +89,8 @@ seamless on any device.
 
 * [Desktop Wireframes](readme-files/kiteventure-desktop-wireframe.png)
 
+**Note:** From the wireframes to the end product we we took a cuople of design turns for a better user experience.
+
 ### **Am I responsive**
 
 * [Responsive Home](readme-files/screenshot-home.png)
@@ -103,6 +105,8 @@ seamless on any device.
 ## **Surface**
 
 ### **Color Palette**
+
+**HEX**
 ![Color Palette](readme-files/color-palette-kiteventure.png)
 
 **RGB** equivalent from left to right
@@ -118,8 +122,34 @@ seamless on any device.
  Combining the color palette with the warmth of the images we want to create that feeling of being outside, in the nature, where every adventure takes place
  where KiteVenture is gonna bring you.
 
+ For the dark text we used a Davys Grey , a friendlier and fresher version of the typical black.
+
  ### **Typography**
- ### **Buttons**
+ The fonts used in this project are from [Fonts Google](https://fonts.google.com/). The main typography along the whole website is **Roboto**. Its forms are largely geometric, but at the
+ same time the font features friendly and open curves. For the headers throughout the website we also used **Roboto**, but in this case we played with its size, weight and letter spacing
+ for readability and hierarchy of importance.
+
+ For our logo we used **Rock & Salt**. It is a hand crafted font that gives a fresh, casual and natural look to our logo introducing from the very begining the 
+ feeling of adventure to the user. 
+
+ If for any reason the browser used does not support this fonts there are backup fonts asigned to replace the ones we choosed.
+ 
+ Below we can find the imported code from  [Fonts Google](https://fonts.google.com/) to the top of our css file.
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Rock+Salt&display=swap');
+
+### **Call to action**
+We used different techniques for our call in actions, all of them very intuitive for the user to click
+
+* For the logo and the navigation bar when we hover we notice that it change the color telling us that we can do somthing with it. In this case the call 
+to action are the words themself. we also used this technic for the email address and location in the footer, linking them to an email and to googlemaps respectively
+.
+
+* For the call to action that leads us to the contact form we designed a button, also with a hover effect that echanges the color of the button for the 
+color of its text as we hover it. This buttons can be for **Contact us** , **Book now**, or **Submit**.
+
+* For the Social Media call to actions, we didn't create any effects on them since for users in general to click on them is almost a natural reaction. 
+
 
 ## **Features**
 ### **Existing Features**
@@ -128,7 +158,7 @@ seamless on any device.
 ## **Technologies used**
 * [Bootstrap](https://getbootstrap.com/) for the grid system.
 
-* [Fonts Google](https://fonts.google.com/) for Typography.
+* [Fonts Google](https://fonts.google.com/) for typography.
 
 * [Ami Responsive Design](http://ami.responsivedesign.is/) for responsiviness mockups.
 
