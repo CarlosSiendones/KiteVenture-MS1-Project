@@ -68,17 +68,17 @@ KiteVenture website has 3 pages:
 ## **Skeleton**
 ### **Layout**
 
-* The KiteVenture website has been design with a responsive design , so it adapts the layout deppending on the device/screen size the web is 
+* The website has been created with a responsive design , so it adapts the layout deppending on the device/screen size the web is 
 displayed.While in a mobile device everything displays in one column due to its size, in bigger devices like tablets, laptops, desktop 
 screens the website will display in two, three or four columns depending on the sections needs.
 
-* In order to display a clean and organised layout i have used Bootstrap for the grid system combined with containers, margins, paddings etc...
+* In order to display a clean and organised layout we have used Bootstrap for the grid system combined with containers, margins, paddings etc...
 
 * The KiteVenture website has been designed under the philoshopy of Mobile-First Design to create a better user experience,
 starting the design process  from the smallest of the screens (mobile). In this way we ensure that the users experience is 
 seamless on any device.
 
-* Last but not least , i used a maximum width to ensure that in large and very large screens everyhing stays organised, keeping the visual proportions within the screen.
+* Last but not least , we used a maximum width to ensure that in large and very large screens everyhing stays organised, keeping the visual proportions within the screen.
 
 ### **Wireframes**
 
@@ -150,15 +150,41 @@ color of its text as we hover it. This buttons can be for **Contact us** , **Boo
 
 * For the Social Media call to actions, we didn't create any effects on them since for users in general to click on them is almost a natural reaction. 
 
+### **Imagery**
+
+Given that the website is a proposal for a potential customer we have not actual images from this company at the moment, in the future we will need just 
+to replace the images.
+
+
 
 ## **Features**
 ### **Existing Features**
 ### **Features to come**
 
 ## **Technologies used**
+### **Core technologies**
+
+* **HTML 5** to create the structure of the website.
+
+* **CSS** to style the website.
+
+* **Gitpod** for writing the code , commit it and push it to Github.
+
+* **GitHub** for hosting the repository.
+
+* **Git** for versiion control of the project when/if needed.
+
+### **Design technologies**
+
 * [Bootstrap](https://getbootstrap.com/) for the grid system.
 
+* [Free for Matter](https://www.freeformatter.com/) to beautify html and css.
+
+* [Auto Prefixer](https://autoprefixer.github.io/) to make the site cross browser.
+
 * [Fonts Google](https://fonts.google.com/) for typography.
+
+* [balsamiq Wireframe](https://balsamiq.com/) for wireframes.
 
 * [Ami Responsive Design](http://ami.responsivedesign.is/) for responsiviness mockups.
 
@@ -167,6 +193,16 @@ color of its text as we hover it. This buttons can be for **Contact us** , **Boo
 * [Coolors](https://coolors.co/) to create color palette.
 
 * [I Love Img](https://www.iloveimg.com/) to resize images.
+
+### **Testing technologies**
+* [Markup Validation Service](https://validator.w3.org/) to validate html.
+
+* [Jigsaw](https://jigsaw.w3.org/css-validator/) to validate css.
+
+* [Ami Responsive Design](http://ami.responsivedesign.is/)to test responsiviness.
+
+* **DEV TOOLS** light house. To test performance , accesibility, best practices and search engine optimization.\
+
 ## **Testing**
 ## **Deployment**
 
