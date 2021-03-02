@@ -153,7 +153,11 @@ color of its text as we hover it. This buttons can be for **Contact us** , **Boo
 ### **Imagery**
 
 Given that the website is a proposal for a potential customer we have not actual images from this company at the moment, in the future we will need just 
-to replace the images.
+to replace the images. All the images of the website have been downloaded from [Unsplash](https://unsplash.com/).
+
+The images has been selected to induce the user in a state of need for an adventure.
+
+[Images](assets/images) folder.
 
 
 
@@ -207,6 +211,7 @@ to replace the images.
 ## **Deployment**
 
 ## **Credits**
+[Imagery Credits](readme-files/imagery-credits.md)
 ### **Content**
 ### **Media**
 ### **Other**
