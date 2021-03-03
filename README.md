@@ -9,6 +9,7 @@ View the live project [here](https://carlossiendones.github.io/KiteVenture-MS1-P
 ---
 
 ## **User Experience (UX)**
+---
 ## **Strategy**
 ### **User stories**
 **User reasons**
@@ -25,6 +26,7 @@ View the live project [here](https://carlossiendones.github.io/KiteVenture-MS1-P
 * Increase engagement with customers.
 * Provide a direct contact chanel for customers.
 * Show potential customers what KiteVenture is all about.
+---
 
 ## **Scope**
 **Potential user expectations**
@@ -49,6 +51,7 @@ View the live project [here](https://carlossiendones.github.io/KiteVenture-MS1-P
 * Provide a visual overview about what KiteVenture is.
 * Motivate customers to book their next adventure with KiteVenture.
 * Engage with customers via KiteVenture social media channels.
+---
 
 ## **Structure**
 
@@ -161,8 +164,7 @@ Below you will find the file with the images from the whole website and The auth
 
 [Images](assets/images) folder.
 
-
-
+---
 ## **Features**
 
 ### **General features throughout the website**
@@ -206,6 +208,7 @@ We create the website starting from **mobile first philosophy** and scaling up a
 This will make the web site look good in any device. 
 
 **Metadata**
+
 we labeled each page by its name so if the user has more than one page open can recognise easily where is at the moment or where 
 to go. We also add keywords to increase traffic to the site.
 
@@ -231,8 +234,29 @@ page. This is a simple but effective and more important, responsive gallery.It g
 
 **Contact**
 
+* The **Form** is build in a jumbotron structure. It has a background image for visual apealing and keeping the adventurous feeling we started in the home page with the 
+hero image until the very end.Then we have the form with a background with our medium blue color , we reduce opacity in this case so we can stil enjoy the image behind it.
+
+* The form includes:
+    * **Name** and **Last Name** input fields.
+    * **Email** input field, requiring the input to be a email.
+    * **Phone Number** input field , requiring the input being a number.
+    * **Request** is a check list, for the user to choose what kind of request whants to do.
+    * **Comments** input field, for the user to add aditional comments,questions, etc...
+    * **Submit** button.It will change the color when hovered over.*Please Note at the moment this submit button will send you to a 405 not allowed page. We could also link it back to the home page or somwhere else 
+    but it would have the same effect so the data will not be send it anyways. When we aquire the skills we will work on it.
+    * For the form to be send it requires at least a valid Name, Last Name , Email and Phone number. The labels are clear as to what is required in each field.
+
 
 ### **Features to come**
+* **Collapse Navigation Bar**. As the website grows and will need more pages we will collapse the NavBar first in smaller devices and if needed in bigger devices.
+* **Carusel for quotes**. When we add some more quotes we will create a carusel for better user experience.
+* **Submit verificartion message**.
+* **Online Payment Methods**.
+* **More Destinations**.
+* **Linked info to the destinations**.
+
+---
 
 ## **Technologies used**
 ### **Core technologies**
@@ -274,9 +298,11 @@ page. This is a simple but effective and more important, responsive gallery.It g
 
 * [Ami Responsive Design](http://ami.responsivedesign.is/)to test responsiviness.
 
-* **DEV TOOLS** light house. To test performance , accesibility, best practices and search engine optimization.\
+* **DEV TOOLS** light house. To test performance , accesibility, best practices and search engine optimization.
+---
 
 ## **Testing**
+
 ## **Deployment**
 
 ## **Credits**
