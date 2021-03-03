@@ -1,11 +1,37 @@
 # **KiteVenture**
+![Mockup](readme-files/screenshot-home.png)
 ## **About**
+**KiteVenture** is a proposal for a potential company based in Cape Town, South Africa. And is also my MS1 submission project.
 
-KiteVenture 
+**KiteVenture** is a bussiness with kitesurfers as main focus. As the name insinuates the core concepts of the company are **Kitesurfing and Adventure**. From wherever you are in the 
+World, KiteVenture will bring you to the selected starting point of our amazing roadtrips adventures. The least you can expect is to live in the wild for the extension of your trip. 
+Sleeping, cooking, waking up, showering ... you name it!! We will make sure to bring you positivily out of your confort zone and we will reconect you with nature. All this ocuorse 
+matched with a hight dose of kitesurfing to keep you stoked all the way.
 
-View the live project [here](https://carlossiendones.github.io/KiteVenture-MS1-Project/index.html)
-[Other](#other)
+To return Home will be hard, but something inside you will have change for good, for the best.
 
+**KiteVenture** has been working from mouth to mouth in the past. The company is looking forward to keep in touch with their current customers and to 
+expand bussines. To have a presence online is crucial to reach their goals. 
+
+View the live project [KiteVenture](https://carlossiendones.github.io/KiteVenture-MS1-Project/index.html).
+
+GitHub [Repository](https://github.com/CarlosSiendones/KiteVenture-MS1-Project).
+
+---
+## **Index**
+
+* [Strategy](#strategy)
+* [Scope](#scope)
+* [Structure](#structure)
+* [Design](#design)
+* [Skeleton](#skeleton)
+* [Surface](#surface)
+* [Features](#features)
+* [Technologies](#technologies)
+* [Testing](#testing)
+* [Deploiment](#deploiment)
+* [Credits](#credits)
+* [Developer](#developer)
 ---
 
 ## **User Experience (UX)**
@@ -39,7 +65,7 @@ View the live project [here](https://carlossiendones.github.io/KiteVenture-MS1-P
 
 **Potential user wishes**
 * As user i want to know who KiteVenture is and what do they offer.
-* As user i want to hear from previous clients experinces.
+* As user i want to hear from previous clients experiencies.
 * As user i want to get in touch to plan my next adventure.
 * As user i want updates in new destinations.
 * As user i want visual content from previous trips.
@@ -394,7 +420,7 @@ How do we send the files created from Gitpod to Github? In the command line type
 * **git push**
 
 If we want to add all new or modified files ,in the first of the three steps above mentioned will type it as it is **git add .** .*Please notice the "." after add*. To add a single file instead ,
-we will use the pathway instead the "." after add (eg. **git add README.md** or **git add assets/css/style.css**).After that we will go on with second and third step. Commit often and with clear 
+we will use the pathway instead the "." after add (eg. **git add README.md** or **git add assets/css/style.css**). After that we will go on with second and third step. Commit often and with clear 
 explenations of what we are committing.
 
 ### **Deployment steps**
@@ -405,7 +431,7 @@ explenations of what we are committing.
 * The page should then refresh automatically and a **link** of the live site should be displaced.
 
 ### **Forking**
-Forking the Github repository can be very useful.If we want to work and make changes without this to affect to the original repository, for testing new features for example.
+Forking the Github repository can be very useful. If we want to work and make changes without this to affect to the original repository, for testing new features for example.
 
 * Login to Github and go to the Repository you want to fork .
 * Go to the **Fork** button above the Repo. 
@@ -421,14 +447,15 @@ Forking the Github repository can be very useful.If we want to work and make cha
 
 * **Slack Community** for all the support from fellow students to tutors.
 
-* **Students Whatsapp Group** for being so suportive to one another technically and motivationally.Special mention to **Rebecca Kelsall** to cheer me up big time when i was in the deepest during the MS1.
+* **Students Whatsapp Group** for being so suportive to one another technically and motivationally. Special mention to **Rebecca Kelsall** to cheer me up big time when i was in the deepest during the MS1.
 
 * [Imagery Credits here](readme-files/imagery-credits.md).
 
 * **Teams behind all the technologies used** during this project . Please see **technologies used** section.
 ---
 
-### Designer and Developer
+### **Developer**
 * **Carlos Siendones**
+---
 
 
