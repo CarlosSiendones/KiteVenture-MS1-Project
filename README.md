@@ -251,7 +251,7 @@ hero image until the very end.Then we have the form with a background with our m
 ### **Features to come**
 * **Collapse Navigation Bar**. As the website grows and will need more pages we will collapse the NavBar first in smaller devices and if needed in bigger devices.
 * **Carusel for quotes**. When we add some more quotes we will create a carusel for better user experience.
-* **Submit verificartion message**.
+* **Submit verification message**.
 * **Online Payment Methods**.
 * **More Destinations**.
 * **Linked info to the destinations**.
@@ -282,7 +282,7 @@ hero image until the very end.Then we have the form with a background with our m
 
 * [Fonts Google](https://fonts.google.com/) for typography.
 
-* [balsamiq Wireframe](https://balsamiq.com/) for wireframes.
+* [Balsamiq Wireframe](https://balsamiq.com/) for wireframes.
 
 * [Ami Responsive Design](http://ami.responsivedesign.is/) for responsiviness mockups.
 
@@ -355,7 +355,9 @@ We carried tests for each page in the light house Dev Tools , testing accesibili
 shows in order home page, gallery and contact tests.
 
 ![Home page test](readme-files/light-house-test-home.png)
+
 ![Gallery test](readme-files/light-house-test-gallery.png)
+
 ![Contact page test](readme-files/light-house-test-contact.png)
 
 ### **Usability**
@@ -382,9 +384,51 @@ to stay in the loop.
 ---
 
 ## **Deployment**
+Github is in this case is our repository host, and Gitpod is our code editor. Now we will explain diferent aspects of the deployment procces. *Please notice that this description 
+starts from the point that we have already created a Github/Gitpod account an even a repository*. 
+
+### **Add,Commit,Push**
+How do we send the files created from Gitpod to Github? In the command line type:
+* **git add .**  (to update the whole project)
+* **git commit -m "Desired commit here"**
+* **git push**
+
+If we want to add all new or modified files ,in the first of the three steps above mentioned will type it as it is **git add .** .*Please notice the "." after add*. To add a single file instead ,
+we will use the pathway instead the "." after add (eg. **git add README.md** or **git add assets/css/style.css**).After that we will go on with second and third step. Commit often and with clear 
+explenations of what we are committing.
+
+### **Deployment steps**
+* Login in to Github
+* Go to **settings** above the repository.
+* Scroll down to **Github settings** section.
+* Under **Source** go to the dropdown called **None**, select **Master Branch**.
+* The page should then refresh automatically and a **link** of the live site should be displaced.
+
+### **Forking**
+Forking the Github repository can be very useful.If we want to work and make changes without this to affect to the original repository, for testing new features for example.
+
+* Login to Github and go to the Repository you want to fork .
+* Go to the **Fork** button above the Repo. 
+* By now you should have a copy of the original repository in your Github.
+
+---
 
 ## **Credits**
-[Imagery Credits](readme-files/imagery-credits.md)
-### **Content**
-### **Media**
-### **Other**
+
+* **CODE INSTITUE** for all the program/lessons, tutor assistance, student care.
+
+* **Brian Macharia** Mentor from CODE INSTITUTE. For all the advice and support throughout the MS1.
+
+* **Slack Community** for all the support from fellow students to tutors.
+
+* **Students Whatsapp Group** for being so suportive to one another technically and motivationally.Special mention to **Rebecca Kelsall** to cheer me up big time when i was in the deepest during the MS1.
+
+* [Imagery Credits here](readme-files/imagery-credits.md).
+
+* **Teams behind all the technologies used** during this project . Please see **technologies used** section.
+---
+
+### Designer and Developer
+* **Carlos Siendones**
+
+
