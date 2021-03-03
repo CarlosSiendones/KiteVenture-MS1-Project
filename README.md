@@ -255,6 +255,7 @@ hero image until the very end.Then we have the form with a background with our m
 * **Online Payment Methods**.
 * **More Destinations**.
 * **Linked info to the destinations**.
+* **Biografi of team members**.
 
 ---
 
@@ -302,6 +303,83 @@ hero image until the very end.Then we have the form with a background with our m
 ---
 
 ## **Testing**
+* [Live project](https://carlossiendones.github.io/KiteVenture-MS1-Project/)
+
+* [HTML Validator](https://validator.w3.org/) Not Errors found
+
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) Not Errors Found
+
+*Please notice to validate CSS by direct input.
+
+[x] **Navigation Links** redirect to correct page.
+
+[x] **Logo** returns to home page.
+
+[x] Call to action **Contact us**,**Booking now** and **Destination** buttons redirect to contact form.
+
+[x] Call to action **email** in footer in the section Contact Us redirects to email service.
+
+[x] Call to action **location** in footer in the section Contact Us redirects to google maps.
+
+[x] **Social Media** links redirect to their social media channels.
+
+[x] **Hoover** over links are clear. *Please notice that in Social Media links it is intentional to dont have any hover effect as mention previously.
+
+[x] **Requested inputs** in form. If the requested input is not filed properly wont be possible to submit the form.
+
+
+### **Cross Browser**
+
+The Website has been tested in:
+* Internet Explorer
+* Fire Fox
+* Chrome
+* Microsoft Edge
+* Safari 
+* Opera
+
+So far we found a little issue in Internet explorer with our destination images,they dont get completely the desired shape.Overall we can say that the **cross browser test has been succesfull**.
+
+### **Cross OS**
+
+The Website has been tested in:
+* iOS
+* Windows 10
+* Android 10
+
+The site didnt give any problem so far in none of them.
+
+
+### **Light House** Dev Tools 
+We carried tests for each page in the light house Dev Tools , testing accesibility, performance, good practice and search engine optimization. We carried this tests in incognito mode to be more accurate.We Know we can improve somethings but we are very satisfied with the results.The images below 
+shows in order home page, gallery and contact tests.
+
+![Home page test](readme-files/light-house-test-home.png)
+![Gallery test](readme-files/light-house-test-gallery.png)
+![Contact page test](readme-files/light-house-test-contact.png)
+
+### **Usability**
+At different stages of the design we send the project to some colleges from the slack community and also to a group of random peoplent connected to 
+software development. With this we focus in responsiviness and user experience. When we first sent the project some testers gave very usefull feedback, 
+we adapted the project then to have a better user experience and accesibility.Some of the adaptations were creating links in contact us in the footer,
+resize images so loading time decrease. 
+
+We sent the project in its last version and the feedback has been very possitive from both students in the field and randome potential users. 
+
+### **Testing User Stories**
+
+* **A user is looking to go for a kitesurf trip.** The user arrived to the right place this website specialises in kitesurf trips.
+
+* **A user is researching to find that different adventure within kitesurfing.** To help the user decide to go for an adventure with KiteVenturewe let 
+them know who KiteVenture are , healthy reasons why they should go with KiteVenture, all KiteVenture destinations and the word of other KiteVenturers.
+* **A user wants to book an adventure easily dealing directly with the KiteVenture team.** We provide the user with a contact form that makes very easy
+to contact with the KiteVenture team. Furthermore in the footer in each page we provide with the phone number so users can contact directly with KiteVenture. 
+* **A current customer reach out to get information of other destinations.** In the contact form mention in the previouse user story we have a check list for 
+different purposes like quotation, information and booking.
+* **A user is looking for previous visual references from other KiteVenturers.** At KiteVenture we give a lot of importance to visual references so we created 
+a page exclusively for a Photo-gallery with previous users images. For more visual references we have links to KiteVenture Social Media Channels for the user 
+to stay in the loop. 
+---
 
 ## **Deployment**
 
